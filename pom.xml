@@ -26,7 +26,7 @@ under the License.
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-plugins</artifactId>
     <version>34</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <artifactId>maven-compiler-plugin</artifactId>
@@ -68,7 +68,7 @@ under the License.
       ! The following property is used in the integration tests MCOMPILER-157
     -->
     <mavenPluginPluginVersion>3.5</mavenPluginPluginVersion>
-    <plexusCompilerVersion>2.12.0</plexusCompilerVersion>
+    <plexusCompilerVersion>2.13.0</plexusCompilerVersion>
 
     <groovyVersion>2.4.21</groovyVersion>
     <groovyEclipseCompilerVersion>3.7.0</groovyEclipseCompilerVersion>
@@ -253,7 +253,7 @@ under the License.
                       <exclude>org.ow2.asm:asm</exclude>
                     </excludes>
                   </enforceBytecodeVersion>
-                  <requireSameVersions />
+                  <requireSameVersions/>
                 </rules>
               </configuration>
             </execution>
@@ -274,7 +274,7 @@ under the License.
           <artifactId>maven-javadoc-plugin</artifactId>
           <version>3.4.0</version>
           <configuration> <!--  remove after MPOM-269 -->
-            <tagletArtifacts combine.self="override" />
+            <tagletArtifacts combine.self="override"/>
           </configuration>
         </plugin>
         <plugin>
